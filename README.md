@@ -1,5 +1,4 @@
 # CurrencyExchangeRate
- Build latest and historic rate table with your chosen base currency.
 
 Pre-requisite:
 1. Node js (https://nodejs.org/en/download/)
