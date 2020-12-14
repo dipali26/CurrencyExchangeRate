@@ -200,6 +200,7 @@ background-color: #337ab7;
   float: right;
    width: 100%;
   margin-left: 20px;
+  height: 250px;
 }
 
 .dateRangeDiv {
@@ -237,6 +238,7 @@ thead{
       float: right;
        width: 100%;
       margin-left: 20px;
+      height: 250px;
     }
   }
 
@@ -259,7 +261,9 @@ thead{
     thead{
       width: 100%;
     }
-   
+    .dateRangeDiv {
+      margin-left: 0px;
+    }
   }
   
 
