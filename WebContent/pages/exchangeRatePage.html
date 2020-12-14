@@ -32,7 +32,7 @@
 		<span ng-select="selected" > {{selectedCur1}}</span> <span class="caret"></span>  </button></span>
 		<p>Currency 1</p>
 		  <ul class="dropdown-menu">
-			<input class="form-control" id="myInput" type="text"  ng-model="myInput1"placeholder="Search..">
+			<input class="form-control , myInput" type="text"  ng-model="myInput1"placeholder="Search..">
 			<li ng-repeat= "currency in currencyArray | filter:myInput1 track by $index" ng-click="getCurrD1(currency)"  >{{currency}}</li>
 		
 		  </ul>
@@ -48,7 +48,7 @@
 	<span ng-select="selected"  > {{selectedCur2}}</span> <span class="caret"></span>  </button></span>
 	<p>Currency 2</p>
 	  <ul class="dropdown-menu" >
-		<input class="form-control" id="myInput" type="text"  ng-model="myInput2"placeholder="Search..">
+		<input class="form-control , myInput" type="text"  ng-model="myInput2"placeholder="Search..">
 		<li ng-repeat= "currency2 in currencyArray | filter:myInput2 track by $index" ng-click="getCurrD2(currency2)"  >{{currency2}}</li>
 	
 	  </ul>
